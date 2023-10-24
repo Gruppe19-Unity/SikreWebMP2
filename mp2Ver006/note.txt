@@ -1,0 +1,7 @@
+MP2
+  Ikke-funksjonelle krav
+    5. Mest mulig av konteineroppstarten skal skje som ikke-root. chroot som root, unshare uten.
+
+Errors not running as root:
+  - unshare failed: operation not permitted
+  - mount: permission denied (are you root?)
